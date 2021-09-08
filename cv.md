@@ -40,3 +40,12 @@ He graduated from the it-academy courses in 2019:
 You can see my works at the following [address](https://github.com/VanKertiss/)
 
 ---
+
+
+Higher education 
+* Belarusian State University of Informatics and Radioelectronics.
+* Specially - Information Technology Engineer (automated information processing systems)
+
+---
+
+English language proficiency level: A2
