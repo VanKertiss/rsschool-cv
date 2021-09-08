@@ -1,1 +1,0 @@
-https://VanKertiss.github.io/rsschool-cv/cv
