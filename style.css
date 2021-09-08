@@ -21,6 +21,11 @@ header{
     background-color: chocolate;
 }
 
+.photo{
+    margin: 30px 0 20px;
+    border-radius: 15px;
+}
+
 .main-container{
     max-width: 900px; 
     width: 80%; 
