@@ -1,3 +1,5 @@
+![my photo](./photo.jpg)
+
 # Ivan Dulchick
 ---
 ## phone: +37544-546-54-23
