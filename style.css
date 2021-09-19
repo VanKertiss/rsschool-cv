@@ -3,33 +3,124 @@
     padding: 0;
 }
 
+@keyframes shadow {
+    from {box-shadow: 0 0 3px white;}
+    50% {box-shadow: 0 0 30px rgb(158, 64, 64);}
+    to {box-shadow: 0 0 3px white;}
+    }
+
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(./img/background-body.jpg);
+    color: white;
+    background-attachment: fixed;
 }
 
-header{
-    margin-top: 50px;
+nav{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: rgba(158, 64, 64, 0.5)
+}
+
+.link-active{
+    border: 3px solid gray;
+    border-radius: 5px;
+    
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul:first-child{
+    margin-top: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.imgHtml{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.skill{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    margin-bottom: 10px;
 }
 
 .header-container{
-    max-width: 1100px; 
+    max-width: 900px; 
     width: 75%; 
     margin: auto; 
     display: flex;
     align-items: center; 
     justify-content: space-around; 
-    background-color: chocolate;
+    background-color: rgba(0, 0, 0, 0.8) ;
 }
 
 .photo{
     margin: 30px 0 20px;
     border-radius: 15px;
+    border: 3px solid gray;
+    margin-bottom: 50px;
+}
+
+.photo:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+    animation: shadow 1.5s infinite ease;
 }
 
 .main-container{
+    display: flex;
+    border-top: 2px solid white;
     max-width: 900px; 
-    width: 80%; 
+    width: 75%; 
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.8) ;
+}
+
+.main-sidebar{
+    width: 250px;
+    padding: 25px;
+}
+
+.main-description{
+    max-width: 650px;
+    padding: 25px;
+    border-left: 2px solid white;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-item{
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
 }
 
 .mail{
@@ -37,7 +128,7 @@ header{
 }
 
 .about{
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .education{
