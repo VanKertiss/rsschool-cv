@@ -22,3 +22,8 @@ function click() {
     menu.classList.toggle('nav-active');
     console.log('клик')
 }
+
+console.log(
+    'Самооценка CV:'+
+    ''
+)

@@ -32,7 +32,7 @@
                     <a class="mail contacts-item" href="mailto:dulchickIvan@gmail.com">e-mail:
                         dulchickIvan@gmail.com</a>
                     <a class="phone contacts-item" href="viber://chat?number=%2B375445465423">viber</a>
-                    <a class="phone contacts-item" href="https://tele.click/{@VanKertis}">telegram</a>
+                    <a class="phone contacts-item" href="https://tele.click/@VanKertis">telegram</a>
                     <a class="phone contacts-item" href="tel:%2B375445465423">phone: +375(44)546-54-23</a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
     navLink.addEventListener('click', e => {
         console.log(navLink)
         const currLink = e.target.dataset.btn;
-        for(let i = 0; i< linkContent.length; i++){
+        for(let i = 0; i linkContent.length; i++){
             linkContent[i].classList.remove('link-active')
             if(linkContent[i].dataset.btn === currLink){
             linkContent[i].classList.add('link-active');
