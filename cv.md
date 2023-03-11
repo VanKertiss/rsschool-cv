@@ -1,5 +1,5 @@
 # Дульчик Иван
-![avatar](/img/FFeP1jXaWYY.jpg "photo")
+![avatar](./img/FFeP1jXaWYY.jpg "photo")
 #####
 * контакты для связи
     + +375445465423
