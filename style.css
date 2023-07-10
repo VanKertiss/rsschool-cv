@@ -187,6 +187,11 @@ h1 {
     margin: 20px;
 }
 
+.contact_link{
+    color: white;
+    text-decoration: none;
+}
+
 .footer_brand {
     background-image: url(https://rs.school/images/rs_school_js.svg);
     background-repeat: no-repeat;
