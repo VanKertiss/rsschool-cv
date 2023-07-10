@@ -13,37 +13,36 @@
 </head>
 
 <body>
-
-    <nav id="links" class="header-container nav">
-        <div class="link link-active" data-btn="1">about</div>
-        <div class="link" data-btn="2">education</div>
-        <div class="link" data-btn="3">skills</div>
-        <div class="link" data-btn="4">experience</div>
-        <div class="link" data-btn="5">contacts</div>
+    <nav id="links">
+        <ul class="header-container nav">
+            <li class="link link-active">about</li>
+            <li class="link">education</li>
+            <li class="link">skills</li>
+            <li class="link">experience</li>
+            <li class="link">contacts</li>
+        </ul>
     </nav>
     <div class="menu-button"></div>
     <header>
         <div class="header-container header-contain">
-
             <img class="photo" src="./img/photo.jpg" alt="">
             <div class="title">
                 <h1>Dulchick Ivan</h1>
-                <div class="contacts">
-                    <a class="mail contacts-item" href="mailto:dulchickIvan@gmail.com">e-mail:
-                        dulchickIvan@gmail.com</a>
-                    <a class="phone contacts-item" href="viber://chat?number=%2B375445465423">viber</a>
-                    <a class="phone contacts-item" href="https://tele.click/@VanKertis">telegram</a>
-                    <a class="phone contacts-item" href="tel:%2B375445465423">phone: +375(44)546-54-23</a>
-                </div>
+                <ul class="contacts">
+                    <li><a class="mail contacts-item" href="mailto:dulchickIvan@gmail.com">e-mail:
+                            dulchickIvan@gmail.com</a></li>
+                    <li><a class="phone contacts-item" href="viber://chat?number=%2B375445465423">viber</a></li>
+                    <li><a class="phone contacts-item" href="https://tele.click/@VanKertis">telegram</a></li>
+                    <li><a class="phone contacts-item" href="tel:%2B375445465423">phone: +375(44)546-54-23</a></li>
+                </ul>
             </div>
         </div>
     </header>
-
     <main>
-
         <div class="main-container">
             <div class="main-sidebar">
-                <div class="skills">My skills: <ul class="skill-items">
+                <div class="skills">My skills:
+                    <ul class="skill-items">
                         <li class="skill"><img src="./img/html.png" alt="" class="imgHtml"> html</li>
                         <li class="skill"><img src="./img/css.png" alt="" class="imgHtml"> css</li>
                         <li class="skill"><img src="./img/js.png" alt="" class="imgHtml"> js</li>
@@ -106,7 +105,6 @@
             </div>
         </div>
     </main>
-
     <footer>
         <div class="footer-container">
             <div class="footer_contacts">
@@ -114,13 +112,12 @@
                 <ul>
                     <li class="contact">phone: +375(44)546-54-23</li>
                     <li class="contact">email: DulchickIvan@gmail.com</li>
-                    <li class="contact">github: https://github.com/VanKertiss/ </li>
+                    <li class="contact">github: <a class="contact_link"
+                            href="https://github.com/VanKertiss/">https://github.com/VanKertiss/ </a> </li>
                     <li class="contact">year of application creation: 2023</li>
                 </ul>
             </div>
-
             <a href="https://rs.school/js/" class="footer_brand">
-
             </a>
         </div>
     </footer>
