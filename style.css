@@ -22,7 +22,7 @@ body {
     background-image: url(./img/background-body.jpg);
     color: white;
     background-attachment: fixed;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: auto;
 }
 
@@ -163,6 +163,17 @@ h1 {
 
 .experience {
     margin-bottom: 20px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.project-item{
+    color: white;
+    text-decoration: none;
 }
 
 .code {
