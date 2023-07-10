@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Dulchick Ivan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav id="links">
+        <ul class="header-container nav">
+            <li class="link link-active">about</li>
+            <li class="link">education</li>
+            <li class="link">skills</li>
+            <li class="link">experience</li>
+            <li class="link">contacts</li>
+        </ul>
+    </nav>
+    <div class="menu-button"></div>
+    <header>
+        <div class="header-container header-contain">
+            <img class="photo" src="./img/photo.jpg" alt="DulchickIvanOnlyForYou ">
+            <div class="title">
+                <h1>Dulchick Ivan</h1>
+                <ul class="contacts">
+                    <li><a class="mail contacts-item" href="mailto:dulchickIvan@gmail.com">e-mail:
+                            dulchickIvan@gmail.com</a></li>
+                    <li><a class="phone contacts-item" href="viber://chat?number=%2B375445465423">viber</a></li>
+                    <li><a class="phone contacts-item" href="https://tele.click/@VanKertis">telegram</a></li>
+                    <li><a class="phone contacts-item" href="tel:%2B375445465423">phone: +375(44)546-54-23</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="main-sidebar">
+                <div class="skills">My skills:
+                    <ul class="skill-items">
+                        <li class="skill"><img src="./img/html.png" alt="" class="imgHtml"> html</li>
+                        <li class="skill"><img src="./img/css.png" alt="" class="imgHtml"> css</li>
+                        <li class="skill"><img src="./img/js.png" alt="" class="imgHtml"> js</li>
+                        <li class="skill"><img src="./img/react.png" alt="" class="imgHtml"> react</li>
+                        <li class="skill"><img src="./img/redux.png" alt="" class="imgHtml"> redux</li>
+                        <li class="skill"><img src="./img/figma.png" alt="" class="imgHtml"> figma</li>
+                        <li class="skill"><img src="./img/api.png" alt="" class="imgHtml"> rest</li>
+                        <li class="skill"> english lvl: A2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-description">
+                <div class="about text">
+                    <h2 class="about">About</h2>
+                    <div> Hello everyone. I’m Ivan. My goal is to become a frontend developer. I really
+                        like this
+                        direction. I am purposeful, and very serious in my intentions. I have no commercial experience,
+                        but
+                        I have first successes in developing interfaces. I can make a lot of efforts to move in this
+                        direction.
+                    </div>
+                </div>
+                <div class="education text">
+                    <h2 class="about">Education</h2>
+                    <h3>Higher education</h3>
+                    <ul>
+                        <li> Belarusian State University of Informatics and Radioelectronics.</li>
+                        <li> Specially - Information Technology Engineer (automated information processing systems)</li>
+                    </ul>
+                </div>
+                <div class="experience text">
+                    <h3>Courses</h3>
+                    <h4> in 2019:</h4>
+                    Website development using html, css and JavaScript.<br>
+                    Development of web applications using JavaScript.
+                    <h4>in 2020:</h4>
+                    he completed the react youtube course “The Way of the Samurai”.<br>
+
+                    You can see my works at the following <a target="_blank" href="https://github.com/VanKertiss/">
+                        address</a>
+                </div>
+                <div class="projects">
+                    <h2>My projects</h2>
+                    <a class="project-item" href="https://vankertiss.github.io/sale-of-roofing-materials/">Roofing materials</a>
+                    <a class="project-item" href="https://vankertiss.github.io/test-todo/">Todo-list</a>
+                    <a class="project-item" href="https://vankertiss.github.io/Maket1/">Some layout 1</a>
+                    <a class="project-item" href="https://vankertiss.github.io/Maket2/">Some layout 2</a>
+                    <a class="project-item" href="https://vankertiss.github.io/pipes/">Installation of chimneys</a>
+                </div>
+                <div class="my-code">
+                    <h2>My code example</h2>
+                    <pre class="code "><code class=" js">
+    const navLink = document.getElementById('links');
+    const linkContent = document.querySelectorAll('.link');
+
+    navLink.addEventListener('click', e => {
+        console.log(navLink)
+        const currLink = e.target.dataset.btn;
+        for(let i = 0; i linkContent.length; i++){
+            linkContent[i].classList.remove('link-active')
+            if(linkContent[i].dataset.btn === currLink){
+            linkContent[i].classList.add('link-active');
+            }
+        }
+    })
+</code></pre>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer_contacts">
+                <h3>Contacts:</h3>
+                <ul>
+                    <li class="contact">phone: +375(44)546-54-23</li>
+                    <li class="contact">email: DulchickIvan@gmail.com</li>
+                    <li class="contact">github: <a class="contact_link"
+                            href="https://github.com/VanKertiss/">https://github.com/VanKertiss/ </a> </li>
+                    <li class="contact">year of application creation: 2023</li>
+                </ul>
+            </div>
+            <a href="https://rs.school/js/" class="footer_brand">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
